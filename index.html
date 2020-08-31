@@ -19,11 +19,12 @@
     <body>
         <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
             <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                
                 <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="40" width="51"></a>
-                <div class="collape navbar-collapse" id="Navbar">
+                <button class="navbar-toggler align-items-right" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="Navbar">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>  Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span>  About</a></li>
@@ -33,6 +34,7 @@
                     
                     
                 </div>
+                
             </div>
         </nav>
         
@@ -94,7 +96,7 @@
         <header class="jumbotron">
             <div class="container">
                 <div class ="row row-header ">
-                    <div class="col-12 col-sm-6">
+                    <div class="col-12 col-sm-9">
                         <h1>Jai Hanuman Stores</h1>
                         <p>We are the best shop near you for your daily food requirements. Just a call away!</p>
                     </div>
@@ -103,17 +105,13 @@
                         <img src="img/logo.png" class="img-fluid">
                     </div>
                     
-                    <div class="col-12 col-sm-3 align-self-center text-center">
-                        <button class="btn  btn-block btn-warning align-center" id="reserveBtn">
-                            Reserve Table
-                        </button>
-                    </div>
+                   
                 </div>
             </div>
         </header>
         <div class="containr">
-            <div class="row row-content">
-            <div class="col">
+            <div class="row row-content pt-0 pb-0">
+            <div class="col ml-0 mr-0 pl-0 pr-0">
                     <div id="mycarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
@@ -232,6 +230,7 @@
                             <li><a href="./aboutus.html">About</a></li>
                             <li><a href="#">Menu</a></li>
                             <li><a href="./contactus.html">Contact</a></li>
+                            <li><a href="#"> Ways To Order</a></li>
                         </ul>
                     </div>
                     <div class="col-7 col-sm-5">
@@ -247,12 +246,11 @@
                     </div>
                     <div class="col-12 col-sm-4 align-self-center">
                         <div class="text-center">
-                            <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-instagram"href="#"><i class="fa fa-instagram fa-lg"></i></a>
                             <a class="btn btn-social-icon btn-facebook"href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
-                            <a class="btn btn-social-icon btn-linkedin"href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
-                            <a class="btn btn-social-icon btn-twitter"href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
-                            <a class="btn btn-social-icon btn-youtube"href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
-                            <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope fa-lg"></i></a>
+                            
+                            <a class="btn btn-social-icon btn-envelope btn-lg" href="mailto:"><i class="fa fa-envelope-square fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-whatsapp"href="#"><i class="fa fa-whatsapp fa-lg"></i></a>
                         </div>
                     </div>
             </div>
@@ -263,12 +261,12 @@
             </div>
             </div>
         </footer>
-        <div class="WhatsapBtn">
-            <button class="btn  btn-block btn-warning align-center" id="reserveBtn">
+        <div class="whatsapBtn">
+            <img src= class="  btn-block btn-warning align-center" id="reserveBtn">
                ORDER NOW
             </button>
         </div>
-        <button type="button" class="btn btn-primary float-right">Primary</button>
+        
         <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
          <!-- build:js js/main.js -->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
