@@ -3,7 +3,6 @@ $(document).ready(function(){
     $("#mycarousel").carousel( { interval: 2000 } );
     
     $("#loginBtn").click(function(){$("#loginModal").modal()});
-    $("#reserveBtn").click(function(){$("#testform").modal()});
     $("#carouselButton").click(function(){
         if ($("#carouselButton").children("span").hasClass('fa-pause'))
         {
